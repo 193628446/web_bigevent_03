@@ -19,7 +19,7 @@
             </div>
             <!-- 头部区域（可配合layui已有的水平导航） -->
             <ul class="layui-nav layui-layout-right">
-                
+
                 <li class="layui-nav-item">
                     <!-- 顶部头像区域 -->
                     <a href="javascript:;" class="userinfo">
@@ -62,17 +62,23 @@
                     <li class="layui-nav-item">
                         <a class="" href="javascript:;"><span class="iconfont icon-16"></span>文章管理</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>文章类别</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>文章列表</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>发表文章</a></dd>
+                            <dd><a href="/article/art_cate.html" target="fm"><i
+                                        class="layui-icon layui-icon-app"></i>文章类别</a></dd>
+                            <dd><a id="art_list" href="/article/art_list.html" target="fm"><i
+                                        class="layui-icon layui-icon-app"></i>文章列表</a></dd>
+                            <dd><a href="/article/art_pub.html" target="fm"><i
+                                        class="layui-icon layui-icon-app"></i>发布文章</a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item">
                         <a href="javascript:;"><span class="iconfont icon-user"></span>个人中心</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="/user/user_info.html" target="fm"><i class="layui-icon layui-icon-app"></i>基本资料</a></dd>
-                            <dd><a href="/user/user_avatar.html" target="fm"><i class="layui-icon layui-icon-app"></i>更换头像</a></dd>
-                            <dd><a href="/user/user_pwd.html" target="fm"><i class="layui-icon layui-icon-app"></i>重置密码</a></dd>
+                            <dd><a href="/user/user_info.html" target="fm"><i
+                                        class="layui-icon layui-icon-app"></i>基本资料</a></dd>
+                            <dd><a href="/user/user_avatar.html" target="fm"><i
+                                        class="layui-icon layui-icon-app"></i>更换头像</a></dd>
+                            <dd><a href="/user/user_pwd.html" target="fm"><i
+                                        class="layui-icon layui-icon-app"></i>重置密码</a></dd>
                         </dl>
                     </li>
                 </ul>
@@ -84,9 +90,9 @@
             <!-- 可以在本页面里面跳转 -->
             <!-- src 是默认跳转 -->
             <iframe name="fm" src="/home/dashboard.html" frameborder="0">
-              <!-- <div style="padding: 15px;">内容主体区域</div> -->
+                <!-- <div style="padding: 15px;">内容主体区域</div> -->
             </iframe>
-          </div>
+        </div>
     </div>
 
     <div class="layui-footer">
